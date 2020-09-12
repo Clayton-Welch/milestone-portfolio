@@ -1,0 +1,181 @@
+/***** Base *****/
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+    background-color: #1f202b;
+}
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 24px;
+    overflow: auto;
+}
+header {
+    height: 800px;
+    background-image: url(../img/hero-background.png);
+    background-size: auto;
+    background-position: bottom;
+}
+header .half-width {
+    background-color: #1f202b;
+}
+
+/***** Grid *****/
+
+.full-width {
+    width: 1400px;
+}
+.half-width {
+    width: 700px;
+    float: left;
+}
+.third-width {
+    width: 466px;
+    float: left;
+}
+h1 {
+    font-family: 'Swanky and Moo Moo', cursive;
+    font-size: 72px;
+    color: #ffffff;
+    text-align: left;
+    margin-top: 0px;
+    padding-left: 95px;
+    padding-top: 375px;
+}
+h2 {
+    font-size: 30px;
+    color: #ffffff;
+    margin-top: 0px;
+    padding-left: 50px;
+    padding-top: 24px;
+}
+h3 {
+    font-family: 'Swanky and Moo Moo', cursive;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    color: #fa0075;
+}
+.code {
+    color: #fa0075;
+}
+nav {
+    float: right;
+}
+nav ul {
+    margin-top: 0px;
+    padding-top: 24px;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: lowercase;
+    text-decoration: none;
+    font-size: 30px;
+    color: #ffffff;
+    padding: 0 30px 0 0;
+    word-spacing: 45px;
+}
+
+/***** Content *****/
+/***** Portfolio Sections *****/
+
+
+#portfolio .full-width {
+    height: 125px;
+    overflow: auto;
+}
+.section-one,
+.section-two,
+.section-three {
+    height: 466px;
+    padding-left: 95px;
+    padding-top: 0;
+    color: #ffffff;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.section-one,
+.section-three h4 p {
+    text-align: left;
+}
+.section-one .half-width {
+    width: 600px;
+    height: 466px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.section-two .half-width {
+    width: 600px;
+    height: 466px;
+    text-align: right;
+    padding-left: 0;
+    padding-right: 95px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.section-three .half-width {
+    width: 600px;
+    height: 466px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+/***** About Section *****/
+
+
+#about {
+    height: 550px;
+    background-image: url(../img/about-me.png);
+    background-size: cover;
+    background-position: bottom;
+}
+#about h3 {
+    padding-top: 20px;
+}
+#about .about-me {
+    float: left;
+    font-family: 'Charmonman',cursive;
+    font-size: 24px;
+    width: 600px;
+    padding-left: 95px;
+    line-height: 1.5;
+}
+
+/***** Contact Section *****/
+
+#contact {
+    height: 400px;
+    color: #ffffff;
+}
+#contact a {
+    color: #ffffff;
+    text-decoration: none;
+}
+#contact .third-width {
+    text-align: center;
+}
+#contact ul {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+#contact ul li{
+    display: inline-block;
+    list-style-type: disc;
+}
+#contact ul li a {
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+footer {
+    color: #ffffff;
+    text-align: center;
+}
+footer p {
+    margin: 0px;
+}
